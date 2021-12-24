@@ -1,0 +1,77 @@
+//NET
+rate "786432"
+cl_cmdrate "128"
+cl_updaterate "128"
+cl_interp "0"
+cl_interp_ratio "1"
+
+//VIDEO
+//func_break_max_pieces "1"
+//r_drawtracers_firstperson "1"
+//r_dynamic "1"
+//muzzleflash_light "1"
+
+//VIEWMODEL
+cl_bob_lower_amt "5"
+cl_bobamt_lat "0.1"
+cl_bobamt_vert "0.1"
+cl_bobcycle "0.98"
+cl_viewmodel_shift_left_amt "0.5"
+cl_viewmodel_shift_right_amt "0.25"
+
+//AUDIO
+snd_mute_losefocus "0"
+snd_deathcamera_volume "0"
+snd_dzmusic_volume "0"
+snd_mapobjective_volume "0"
+snd_menumusic_volume "0"
+snd_musicvolume_multiplier_inoverlay "0"
+snd_mute_mvp_music_live_players "1"
+snd_mvp_volume "0"
+snd_roundend_volume "0"
+snd_roundstart_volume "0"
+snd_tensecondwarning_volume "0.1"
+
+//windows_speaker_config "4"
+//snd_front_stereo_speaker_position "45.0"
+//snd_rear_stereo_speaker_position "90.0"
+//snd_stereo_speaker_pan_exponent "1.4"
+//snd_stereo_speaker_pan_radial_weight "0.5"
+
+//MISC
+con_enable "1"
+net_graph "0"
+cl_show_observer_crosshair "2"
+cl_downloadfilter "none"
+
+//GAME
+cl_join_advertise "2"
+cl_autowepswitch "0"
+cl_disablefreezecam "1"
+spec_replay_autostart "0"
+cl_use_opens_buy_menu "0"
+cl_teamid_overhead_mode "2"
++show_team_equiptment
+cl_showloadout "1"
+
+//MOUSE
+m_rawinput "1"
+m_mouseaccel2 "0"
+m_mouseaccel1 "0"
+m_customaccel "0"
+//m_customaccel_exponent "1.00"
+m_mousespeed "0"
+zoom_sensitivity_ratio_mouse "0.818933027098955175"
+//sensitivity "1.500000" //1200 edpi ÷ 800 dpi = 1.5
+
+//BINDS
+//bind capslock "toggle cl_righthand 0 1"
+
+alias "+jumpthrow" "+jump;-attack;-attack2"
+alias "-jumpthrow" "-jump"
+//bind j "+jumpthrow"
+
+echo "AUTOEXEC EXECUTED"
+echo "AUTOEXEC EXECUTED"
+echo "AUTOEXEC EXECUTED"
+host_writeconfig
