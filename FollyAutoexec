@@ -2,11 +2,12 @@
 rate "786432"
 cl_cmdrate "128"
 cl_updaterate "128"
-cl_interp "0"
-cl_interp_ratio "1"
+//cl_interp "0"
+//cl_interp_ratio "1"
 cl_downloadfilter "none"
 
 //VIDEO
+mat_monitorgamma "1.6"
 engine_no_focus_sleep "0"
 
 //VIEWMODEL
@@ -36,7 +37,8 @@ net_graph "0"
 //cl_mute_enemy_team "1"
 cl_show_observer_crosshair "2"
 +cl_show_team_equipment
-cl_teamid_overhead_always "2"
+//cl_teamid_overhead_always "2"
+cl_teamid_overhead_mode "2"
 cl_disablefreezecam "1"
 spec_replay_autostart "0"
 
@@ -53,7 +55,6 @@ m_customaccel_exponent "1.00"
 m_customaccel_max "0"
 m_customaccel_scale "0"
 m_mousespeed "0"
-//sensitivity "2.5"
 zoom_sensitivity_ratio_mouse "0.818933027098955175"
 
 //BINDS
